@@ -14,8 +14,8 @@ describe("Search Elements",()=>{
     it('Search for elemente with mutiple result',()=>{
       
         cy.fixture('index').then((index)=>{  //una vez q me has traido el json index con el alias index 
-            cy.get(index.searchBox).type('dress');
-            cy.get(index.searchBoton).click();
+            
+            cy.search('dress');
             cy.get(index.title).should('contain','dress');
                       
         })
@@ -23,8 +23,7 @@ describe("Search Elements",()=>{
     it('Seach for elemente with no result',() =>{
        
         cy.fixture('index').then((index)=>{
-          cy.get(index.searchBox).type('Gorila');
-          cy.get(index.searchBoton).click();
+         cy.search('Gorila');
           cy.get(index.alerta).should('contain','No results were found for your search');
             
         })

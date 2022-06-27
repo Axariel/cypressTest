@@ -3,8 +3,15 @@
     "searchBoton": "#searchbox > .btn",
      "title": ".lighter",
      "alerta": ".alert",
-     "name": "Admin",
-     "name": "Admin",
-     "name": "Admin"
+     "login": ".login",
+     "email": "#email",
+     "botonSingIn": "#SubmitLogin > span",
+    "errorMenssage": "ol > li",
+    "password": "#passwd",
+    "password": "#passwd",
+    "password": "#passwd"
+    
+
+   
     
 }
