@@ -4,7 +4,7 @@
   "description": "Automation Qa Automation test",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/cypress run "
   },
   "keywords": [
     "Qa",
@@ -14,5 +14,10 @@
   "license": "ISC",
   "dependencies": {
     "cypress": "^10.2.0"
+  },
+  "repository": {
+    "type":"git",
+    "url":"https://github.com/Axariel/cypressTest"    
+        
   }
 }
