@@ -1,0 +1,10 @@
+{
+    "searchBox": "#search_query_top",
+    "searchBoton": "#searchbox > .btn",
+     "title": ".lighter",
+     "alerta": ".alert",
+     "name": "Admin",
+     "name": "Admin",
+     "name": "Admin"
+    
+}
