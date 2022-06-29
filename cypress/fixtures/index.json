@@ -1,16 +1,26 @@
 {
-    "searchBox": "#search_query_top",
+    "phoneGalaxy": ":nth-child(1) > .card > .card-block > .card-title > .hrefch",
     "searchBoton": "#searchbox > .btn",
-     "title": ".lighter",
-     "alerta": ".alert",
-     "login": ".login",
-     "email": "#email",
-     "botonSingIn": "#SubmitLogin > span",
-    "errorMenssage": "ol > li",
-    "password": "#passwd",
-    "password": "#passwd",
-    "password": "#passwd"
+     "addCart": ".col-sm-12 > .btn",
+     "visualiceCart": "#cartur",
+     "position1Cart": "#tbodyid > :nth-child(1) > :nth-child(2)",
+     "position2Cart": "#tbodyid > :nth-child(2) > :nth-child(2)",
+     "placeOrder": ".col-lg-1 > .btn",
+     "orderName": "#name",
+     "orderCountry": "#country",
+     "orderCity": "#city",
+     "orderCreditCard": "#card",
+     "orderMonth": "#month",
+     "orderYear": "#year",
+     "purchaseButton": "#orderModal > .modal-dialog > .modal-content > .modal-footer > .btn-primary",
+     "confirmPurchase": ".confirm"
     
+    
+  
+ 
+    
+   
+ 
 
    
     
